@@ -1,0 +1,15 @@
+{
+  "name": "github-user-activity",
+  "version": "1.0.0",
+  "description": "Simple Github User Activity",
+  "license": "ISC",
+  "author": "Mahyar Kaliji",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "github-activity": "./index.js"
+  },
+  "scripts": {
+    "github-activity": "node ./index.js"
+  }
+}
