@@ -47,7 +47,7 @@ node -v
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/task-tracker-cli.git
+git clone https://github.com/MahyarKaliji/task-tracker-cli.git
 ```
 
 ## 2. Move into the project directory
