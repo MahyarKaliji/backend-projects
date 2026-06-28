@@ -17,7 +17,7 @@ Tip: If you hit GitHub API rate limits, provide a personal access token via `GIT
 Clone the repo and optionally install (no external packages required):
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/MahyarKaliji/backend-projects/tree/main/github-user-activity
 cd github-user-activity
 npm install    # optional; there are no external deps
 ```
