@@ -32,8 +32,8 @@ This project allows you to add, update, delete, list, summarize, and export expe
 expense-tracker/
 │
 ├── lib/
-│   ├── expensesManager.js
-│   ├── storage.js
+│    ├── expensesManager.js
+│    ├── storage.js
 ├── index.js
 ├── expenses.json
 ├── expenses.csv
