@@ -1,9 +1,3 @@
-حتماً — اینم یک `README.md` تمیز و مناسب برای پروژه **Expense Tracker CLI**.  
-می‌تونی مستقیم کپی‌اش کنی داخل فایل `README.md`.
-
----
-
-````md
 # Expense Tracker CLI
 
 A simple command-line Expense Tracker built with Node.js.  
@@ -40,14 +34,13 @@ expense-tracker/
 ├── package.json
 └── README.md
 ```
-````
 
 ## Installation
 
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/MahyarKaliji/backend-projects/tree/main/expense-tracker
 cd expense-tracker
 ```
 
@@ -233,9 +226,3 @@ id,date,description,amount
 ## License
 
 This project is open-source and available under the MIT License.
-
-```
-
----
-
-```
