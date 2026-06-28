@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 import { Command } from "commander";
 import {
   addExpense,
@@ -9,9 +10,6 @@ import {
   updateExpense,
 } from "./lib/expenseManager.js";
 
-// const { listExpenses, addExpense } = require("./lib/expenseManager");
-
-// console.log(process.argv);
 const program = new Command();
 
 program
@@ -47,13 +45,3 @@ program
 program.command("export").action(() => exportExpenses());
 
 program.parse(process.argv);
-// const args = process.argv.slice(2);
-// const command = args[0];
-
-// const description = args[args.findIndex((arg) => arg === "--description") + 1];
-// const amount = args[args.findIndex((arg) => arg === "--amount") + 1];
-// console.log(command);
-// console.log(description);
-// console.log(amount);
-// addExpense(description, amount);
-// listExpenses();
