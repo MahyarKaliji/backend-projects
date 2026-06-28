@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "description": "Ticket",
+    "amount": 90,
+    "createdAt": "2026-11-28T15:39:52.109Z",
+    "updatedAt": "2026-11-28T15:57:32.442Z"
+  },
+  {
+    "id": 2,
+    "description": "Dinner",
+    "amount": 400,
+    "createdAt": "2026-01-28T15:40:21.527Z",
+    "updatedAt": "2026-01-28T15:40:21.527Z"
+  },
+  {
+    "id": 3,
+    "description": "Lunch",
+    "amount": 289,
+    "createdAt": "2026-06-28T18:15:20.037Z",
+    "updatedAt": "2026-06-28T18:15:20.037Z"
+  },
+  {
+    "id": 4,
+    "description": "Phone",
+    "amount": 1349,
+    "createdAt": "2025-04-28T18:15:40.386Z",
+    "updatedAt": "2025-04-28T18:15:40.386Z"
+  },
+  {
+    "id": 5,
+    "description": "Laptop",
+    "amount": 3499,
+    "createdAt": "2026-11-28T18:22:03.375Z",
+    "updatedAt": "2026-11-28T18:22:03.375Z"
+  },
+  {
+    "id": 6,
+    "description": "Car",
+    "amount": 33499,
+    "createdAt": "2026-08-28T18:22:15.304Z",
+    "updatedAt": "2026-08-28T18:22:15.304Z"
+  },
+  {
+    "id": 7,
+    "description": "Fastfood",
+    "amount": 19,
+    "createdAt": "2026-04-28T18:22:36.764Z",
+    "updatedAt": "2026-04-28T18:22:36.764Z"
+  },
+  {
+    "id": 8,
+    "description": "Taxi",
+    "amount": 9,
+    "createdAt": "2026-02-28T18:22:47.543Z",
+    "updatedAt": "2026-02-28T18:22:47.543Z"
+  }
+]
