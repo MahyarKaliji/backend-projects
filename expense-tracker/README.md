@@ -50,12 +50,24 @@ cd expense-tracker
 npm install
 ```
 
+3. Linking the CLI (Global Command)
+
+To run the CLI from anywhere using `expense-tracker`, you need to link the package globally.
+
+Run:
+
+```bash
+npm link
+```
+
+After linking, the command `expense-tracker` will be available globally on your system.
+
 ## Usage
 
 Run commands using:
 
 ```bash
-node index.js <command>
+expense-tracker <command>
 ```
 
 ---
@@ -65,7 +77,7 @@ node index.js <command>
 ### Add Expense
 
 ```bash
-node index.js add --description "Lunch" --amount 20
+expense-tracker add --description "Lunch" --amount 20
 ```
 
 Example output:
@@ -79,7 +91,7 @@ Expense added successfully (ID: 1)
 ### Update Expense
 
 ```bash
-node index.js update --id 1 --description "Dinner" --amount 25
+expense-tracker update --id 1 --description "Dinner" --amount 25
 ```
 
 Example output:
@@ -93,7 +105,7 @@ Expense updated successfully
 ### Delete Expense
 
 ```bash
-node index.js delete --id 1
+expense-tracker delete --id 1
 ```
 
 Example output:
@@ -107,7 +119,7 @@ Expense deleted successfully
 ### List Expenses
 
 ```bash
-node index.js list
+expense-tracker list
 ```
 
 Example output:
@@ -123,7 +135,7 @@ ID   Date         Description   Amount
 ### View Total Summary
 
 ```bash
-node index.js summary
+expense-tracker summary
 ```
 
 Example output:
@@ -137,7 +149,7 @@ Total expenses: $30
 ### View Monthly Summary
 
 ```bash
-node index.js summary --month 1
+expense-tracker summary --month 1
 ```
 
 Example output:
@@ -151,7 +163,7 @@ Total expenses for January: $30
 ### Export to CSV
 
 ```bash
-node index.js export
+expense-tracker export
 ```
 
 Example output:
