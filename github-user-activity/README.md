@@ -120,10 +120,10 @@ Note: This project does not yet read `GITHUB_TOKEN` automatically — consider a
 - Requires Node.js 18+ for built-in fetch.
 - No external dependencies — small and portable.
 - Improvements you may want to add:
-  -- Use `GITHUB_TOKEN` to authenticate requests and handle rate-limiting.
-  -- Add a `--limit` or` --since` flag to control how much history is fetched/displayed.
-  -- Add colored output for better readability.
-  -- Add a` --json` flag to output raw JSON for scripting.
+  - Use `GITHUB_TOKEN` to authenticate requests and handle rate-limiting.
+  - Add a `--limit` or` --since` flag to control how much history is fetched/displayed.
+  - Add colored output for better readability.
+  - Add a` --json` flag to output raw JSON for scripting.
 
 ## Example Workflow
 
