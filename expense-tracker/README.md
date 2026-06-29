@@ -238,3 +238,9 @@ id,date,description,amount
 ## License
 
 This project is open-source and available under the MIT License.
+
+## Acknowledgements
+
+Project idea inspired by:
+
+https://roadmap.sh/projects/expense-tracker
