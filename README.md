@@ -17,3 +17,7 @@ Sample solution for the [github-user-activity](https://roadmap.sh/projects/githu
 Sample solution for the [expense-tracker](https://roadmap.sh/projects/expense-tracker) challenge from [roadmap.sh](https://roadmap.sh/).
 
 ---
+
+- [Number Guessing Game](https://github.com/MahyarKaliji/backend-projects/tree/main/number-guessing-game) - _Javascript (Node.js)_
+
+Sample solution for the [number-guessing-game](https://roadmap.sh/projects/number-guessing-game) challenge from [roadmap.sh](https://roadmap.sh/).
