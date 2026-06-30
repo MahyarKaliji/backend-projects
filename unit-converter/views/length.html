@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playpen+Sans+Hebrew:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="test">Unit Converter</h1>
+
+      <nav class="tabs">
+        <a class="active" href="/length">Length</a>
+        <a href="/weight">Weight</a>
+        <a href="/temperature">Temperature</a>
+      </nav>
+
+      <form action="/length" method="post" class="{{FORM_CLASS}}">
+        <div class="row">
+          <label for="value">Enter the length to convert:</label>
+          <input type="number" name="value" value="{{VALUE}}" required />
+        </div>
+
+        <div class="row">
+          <label for="from">Unit to convert from:</label>
+          <select name="from" id="from">
+            <option value="">Please choose a unit...</option>
+            <option value="mm">Millimeter</option>
+            <option value="cm">Centimeter</option>
+            <option value="m">Meter</option>
+            <option value="km">Kilometer</option>
+            <option value="in">Inch</option>
+            <option value="ft">Foot</option>
+            <option value="yd">Yard</option>
+            <option value="mi">Mile</option>
+          </select>
+        </div>
+
+        <div class="row">
+          <label for="to">Unit to convert to:</label>
+          <select name="to" id="to">
+            <option value="">Please choose a unit...</option>
+            <option value="mm">Millimeter</option>
+            <option value="cm">Centimeter</option>
+            <option value="m">Meter</option>
+            <option value="km">Kilometer</option>
+            <option value="in">Inch</option>
+            <option value="ft">Foot</option>
+            <option value="yd">Yard</option>
+            <option value="mi">Mile</option>
+          </select>
+        </div>
+
+        <button type="submit">Convert</button>
+      </form>
+
+      <div class="result {{RESULT_CLASS}}">
+        <p>Result of your calculation</p>
+        <span class="txt">{{VALUE}}{{FROM}} = {{RESULT_TEXT}}{{TO}}</span>
+
+        <a href="/length">
+          <button>Reset</button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

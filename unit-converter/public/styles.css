@@ -1,0 +1,128 @@
+:root {
+  --font-color: #2c2c2c;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Playpen Sans Hebrew", cursive;
+  font-weight: 600;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+  color: var(--font-color);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+a {
+  line-height: 1.5rem;
+  text-decoration: none;
+  color: var(--font-color);
+  border-bottom: 3px solid transparent;
+}
+
+a:hover {
+  color: #727272;
+  border-color: #727272;
+}
+
+a.active {
+  color: steelblue;
+  border-color: steelblue;
+}
+
+input,
+select {
+  border: 3px solid var(--font-color);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 30rem;
+}
+
+.container {
+  border: 3px solid var(--font-color);
+  padding: 2rem 3rem;
+  min-height: calc(100vh - 2rem);
+  border-radius: 1rem;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.tabs a {
+  font-size: 2rem;
+  padding: 0.8rem 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+select {
+  color: var(--font-color);
+}
+
+option {
+  color: #727272;
+}
+
+option:not(:first-of-type) {
+  color: var(--font-color);
+}
+
+label {
+  font-size: 1.8rem;
+}
+
+button {
+  border: 3px solid var(--font-color);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: white;
+  min-width: 14rem;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  color: var(--font-color);
+  cursor: pointer;
+}
+
+button:hover {
+  font-weight: 800;
+  color: #f0f0f0;
+  border-color: #202020;
+  background-color: #202020;
+}
+
+.result p {
+  font-size: 1.8rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.txt {
+  font-size: 2.8rem;
+  display: block;
+  margin-block: 0.5rem;
+  font-style: italic;
+}
